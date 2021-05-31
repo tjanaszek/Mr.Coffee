@@ -1,0 +1,419 @@
+header{
+	background-color: #6a7b8b;
+	display: flex;
+	justify-content: space-between;
+	font-family: Montserrat;
+	color: #ffffff;
+}
+
+footer{
+	background-color: #6a7b8b;
+	display: flex;
+	font-family: Montserrat;
+	color: #ffffff;
+}
+
+.logowithtitle{
+	justify-content: center;
+	margin:20px 20px 0 20px;
+}
+
+.header_logo{
+	width: 130px;
+	height: auto;
+}
+.header_links{
+	display: flex;
+}
+
+.header_link{
+	color: #ffffff;
+	margin:30px;
+	font-size: 12px;
+	text-decoration: none;
+}
+
+main{
+	 text-align:center;
+	 color:#5c5b5b;
+	 font-family: Montserrat;
+}
+
+h1{
+	font-family: 'Exo 2';
+	font-size: 20px;
+	letter-spacing: 3px;
+	margin-bottom: 30px;
+}
+
+h2{
+	font-size: 25px;
+	margin: 30px 0 30px 0;
+}
+
+h3{
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 1.5;
+	margin: 50px;
+}
+h4{
+	font-size: 18px;
+	font-weight: 300;
+	margin: 50px 0 50px 0;
+}
+
+h5{
+	font-size: 17px;
+	font-weight: 200;
+}
+
+.main_logo{
+	width: 200px;
+	height: auto;
+	margin-top: 10px;
+}
+
+.image-with-title{
+		position: relative;
+		width:100%;
+		height:auto;
+}
+
+.mr_coffee_salle{
+	width: 80%;
+	height: auto;
+	margin: 30px;
+}
+
+.image-text{
+	width: 100%;
+	position: absolute;
+	top: 13%;
+	right: 0;
+	text-align: center;
+	font-size: 37px;
+	font-weight: 1000;
+	text-shadow: -1px 4px 4px #6a7b8b;
+	color: #ffffff;
+}
+
+.box-container{
+	margin-top: 60px;
+	margin-left: 10%;
+	width: 80%;
+	height: auto;
+	display: flex;
+	justify-content: space-between;
+}
+
+.box{
+	width: 30%;
+	min-width: 200px;
+	background-color: #bac1c8;
+	color: #ffffff;
+	text-align: center;
+	box-shadow: 1px 1px 5px #6a7b8b;
+}
+
+.box-image{
+	width: 30%;
+	height: auto;
+	margin-top: 10%;
+	margin-bottom: 2%;
+}
+
+.box-title{
+	font-weight: bold;
+	font-size: 20px;
+	text-shadow: -1px 2px 3px #6a7b8b;
+}
+
+.box-text{
+	width: 80%;
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 1.5;
+	margin-bottom: 10%;
+	margin-left: 10%;
+}
+
+.more-button{
+	background-color: #6a7b8b;
+	color: #ffffff;
+	text-align: center;
+	font-size: 20px;
+	border-radius: 5px;
+	margin: 50px;
+	padding:15px 40px 15px 40px;
+	box-shadow: 1px 1px 5px #6a7b8b;
+}
+
+.opening-hours-info{
+	width: 70%;
+	margin-top: 40px;
+	margin-left: 15%;
+	display: flex;
+	align-self: center;
+	justify-content: flex-start;
+}
+
+.opening-hours-image{
+	width: 80px;
+	height: auto;
+	margin-bottom: 10px;
+}
+
+#opening-hours-text{
+	align-self: flex-end;
+	margin-left: 20px;
+}
+
+.events-container{
+	width: 80%;
+	margin: 20px 10% 50px 10%;
+	display: grid;
+	grid-template-columns: 40% 40%;
+	justify-content: space-around;
+}
+
+.events-column{
+	text-align: center;
+	line-height: 1.5;
+}
+
+.contact-info{
+	margin-left: 25%;
+	margin-top: 50px;
+	margin-bottom: 30px;
+	text-align: left;
+}
+
+.contact-image{
+	width: 50%;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.about-box{
+	margin-left: 10%;
+	margin-bottom: 100px;
+	width: 80%;
+	display: flex;
+	justify-content: space-between;
+}
+
+.about-text1{
+	width: 50%;
+	align-self: center;
+	text-align: left;
+	line-height: 1.5;
+}
+
+.about-image{
+	width: 100%;
+	height: auto;
+}
+
+.about-text2{
+	width: 50%;
+	text-align: left;
+	line-height: 1.5;
+	margin-left: 20px;
+}
+
+.about-image-div{
+	width: 40%;
+}
+
+.footer_logo{
+	width: 8%;
+	min-width: 20px;
+	height: auto;
+	margin: 15px;
+}
+
+.footer_images{
+	display: flex;
+	justify-content: center;
+}
+
+.footer_image{
+	width: 20px;
+	margin: 0 15px 0 15px;
+}
+
+.socialmedia-text{
+	font-size: 12px;
+}
+
+.socialmedia-box{
+	width: 25%;
+	height: auto;
+	display: flex;
+	flex-direction: column;
+	margin-right: 37.5%;
+	justify-content: center;
+	text-align: center;
+}
+
+@media (max-width: 1200px) and (min-width: 1000px) {
+	.about-box{
+		width: 90%;
+		margin-left: 5%;
+	}
+	.image-text{
+		font-size: 30px;
+	}
+
+}
+
+@media (max-width:1000px) and (min-width: 850px) {
+	.mr_coffee_salle{
+		width: 90%;
+	}
+	.image-text{
+		font-size: 26px;
+	}
+	.about-box{
+		width: 90%;
+		margin-left: 5%;
+	}
+	.box-container{
+		width: 90%;
+		margin-left: 5%;
+	}
+	.box{
+		width: 30%;
+	}
+	.box-title{
+		font-size: 18px;
+	}
+	.box-text{
+		font-size: 13px;
+	}
+	h2{
+		font-size: 23px;
+	}
+	h4{
+		font-size: 15px;
+	}
+	h5{
+		font-size: 15px;
+	}
+}
+
+@media (max-width: 850px) and (min-width: 550px) {
+	.image-text{
+		top: 15%;
+		font-size: 22px;
+	}
+	.box-container{
+		flex-direction: column;
+		justify-content: center;
+	}
+	.box{
+		width: 60%;
+		margin-left: 20%;
+		margin-bottom: 30px;
+	}
+	.about-box{
+		display: flex;
+		flex-direction: column;
+	}
+	.about-text1{
+		width: 90%;
+		text-align: center;
+	}
+	.about-image-div{
+		margin-left: 5%;
+		width: 90%;
+	}
+	.about-text2{
+		width: 90%;
+		text-align: center;
+	}
+	h2{
+		font-size: 22px;
+	}
+	h3{
+		font-size: 18;
+	}
+	h4{
+		font-size: 15px;
+	}
+	h5{
+		font-size: 14px;
+	}
+	.contact-info{
+		margin-left: 7.5%;
+	}
+	.contact-image{
+		width: 85%;
+		height: auto;
+	}
+}
+
+@media (max-width: 550px) {
+	header{
+		flex-direction: column;
+		text-align: center;
+	}
+	.header_links{
+		flex-direction: column;
+		text-align: center;
+	}
+	.image-text{
+		top: 16%;
+		font-size: 18px;
+	}
+	.box-container{
+		flex-direction: column;
+	}
+	.box{
+		width: 80%;
+		margin-left: 10%;
+		margin-bottom: 30px;
+	}
+	.events-container{
+		width: 80%;
+		display: flex;
+		flex-direction: column;
+	}
+	h2{
+		font-size: 21px;
+	}
+	h3{
+		font-size: 18px;
+	}
+	h4{
+		font-size: 16px;
+	}
+	h5{
+		font-size: 15px;
+	}
+	.about-box{
+		display: flex;
+		flex-direction: column;
+	}
+	.about-text1{
+		width: 90%;
+		text-align: center;
+	}
+	.about-image-div{
+		margin-left: 5%;
+		width: 90%;
+	}
+	.about-text2{
+		width: 90%;
+		text-align: center;
+	}
+	.contact-info{
+		text-align: center;
+		margin-left: 0;
+}
+	.contact-image{
+		width: 90%;
+		height: auto;
+	}
+}
