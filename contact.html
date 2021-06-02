@@ -30,15 +30,16 @@
 	<h2>Dites nous tout !</h2>
 	<form class="contactForm">
 		<p class="inputLabel" id="nameLabel">Nom *</p>
-		<input type="text" id="nameInput">
+		<input type="text" id="nameInput" required>
 		<p class="inputLabel" id="surnameLabel">Prénom *</p>
-		<input type="text" id="surnameInput">
+		<input type="text" id="surnameInput" required>
 		<p class="inputLabel" id="phoneLabel">Téléphone</p>
-		<input type="number" id="phoneInput">
+		<input type="tel" id="phoneInput">
 		<p class="inputLabel" id="mailLabel">Adresse mail *</p>
-		<input type="mail" id="mailInput">
+		<input type="email" id="mailInput" required>
 		<p class="inputLabel" id="messageLabel">Message *</p>
-		<textarea id="messageInput">Tapez votre message ici</textarea>
+		<input type="text" id="messageInput" value="Tapez votre message ici" required>
+		<input type="submit" value="ENVOYER" class="more-button" id="submitButton">
 	</form>
 	<h2>On vous attend !</h2>
 
