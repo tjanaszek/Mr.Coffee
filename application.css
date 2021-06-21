@@ -201,9 +201,56 @@ input {
 }
 
 #submitButton {
-	width: 40%;
 	height: 60px;
-	margin-left: 30%;
+}
+
+
+#modal-root{
+	position: fixed;
+	overflow: hidden;
+	background-color: rgba(0, 0, 0, 0.4);
+	left : 0;
+	top: 0;
+	width: 0px;
+	height : 0px;
+	opacity: 0;
+	transition: opacity 0.15s ease-out, width 0s linear 0.15s, height 0s linear 0.15s;
+	  
+}
+#modal-root.visible {
+	width: 100%;
+	height: 100%;
+	opacity: 1;
+	transition: opacity 0.15s ease-out;
+  }
+  
+  .modal {
+	margin: 0 auto;
+	width: 70%;
+	display: flex;
+	background-color: #ffffff;
+	padding: 20px;
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+  }
+
+.logo{
+	width: 7%;
+	margin-top: 5%;
+	margin-left: 5%;
+}
+
+#logoPopup{
+	width: 100%;
+}
+#popupInfo{
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	padding-top: 5%;
+	width: 60%;
+	margin-left: 8%;
 }
 
 .contact-info{
@@ -217,6 +264,11 @@ input {
 	width: 50%;
 	margin-top: 50px;
 	margin-bottom: 50px;
+}
+
+#closeButton{
+	width: 30%;
+	margin-left: 35%;
 }
 
 .about-box{

@@ -8,6 +8,7 @@
 	<link rel="stylesheet" href="application.css">
 	<link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
 	<link href='https://fonts.googleapis.com/css?family=Exo%202' rel='stylesheet'>
+	<script src="./form.js"></script>
 </head>
 
 
@@ -39,10 +40,24 @@
 		<input type="email" id="mailInput" required>
 		<p class="inputLabel" id="messageLabel">Message *</p>
 		<input type="text" id="messageInput" value="Tapez votre message ici" required>
-		<input type="submit" value="ENVOYER" class="more-button" id="submitButton">
 	</form>
-	<h2>On vous attend !</h2>
+	<button class="more-button" id="submitButton">ENVOYER</button>
 
+	<div id="modal-root">
+		<div class="modal">
+			<div class="logo">
+				<img id="logoPopup" src="assets/logo_dark.png" alt="logo_dark">
+			</div>
+			<div id="popupInfo" >
+				<h2>MERCI</h2>
+				<h2>Votre message a bien été envoyé !</h2>
+				<h3>Nous essaierons d’y répondre au mieux dans les plus brefs délais. À bientot chez Mr.CoffeeVotre</h3>
+				<button class="more-button" id="closeButton">FERMER</button>
+			</div>
+		</div>
+	</div>
+
+	<h2>On vous attend !</h2>
 	<div class="contact-info">
 		<p><strong>Mr.Coffee</strong></p>
 		<p>15 place Jules Guesde<br />75006 Paris<br /><br />Tel : +33 9 46 25 78 45<br />Mail : contact@mr-coffee.com</p>
