@@ -29,7 +29,7 @@
 <main>
 	<img class="main_logo" src="assets/logo_mrcoffee.png" alt="logo_dark">
 	<h2>Dites nous tout !</h2>
-	<form class="contactForm">
+	<form class="contactForm" id="contactForm">
 		<p class="inputLabel" id="nameLabel">Nom *</p>
 		<input type="text" id="nameInput" required>
 		<p class="inputLabel" id="surnameLabel">Prénom *</p>
@@ -39,9 +39,10 @@
 		<p class="inputLabel" id="mailLabel">Adresse mail *</p>
 		<input type="email" id="mailInput" required>
 		<p class="inputLabel" id="messageLabel">Message *</p>
-		<input type="text" id="messageInput" value="Tapez votre message ici" required>
+		<!-- <input type="text" id="messageInput" value="Tapez votre message ici" required> -->
+		<textarea id="messageInput" required>Tapez votre message ici</textarea>
+		<input type="submit" value="ENVOYER" class="more-button" id="submitButton">
 	</form>
-	<button class="more-button" id="submitButton">ENVOYER</button>
 
 	<div id="modal-root">
 		<div class="modal">
@@ -51,7 +52,7 @@
 			<div id="popupInfo" >
 				<h2>MERCI</h2>
 				<h2>Votre message a bien été envoyé !</h2>
-				<h3>Nous essaierons d’y répondre au mieux dans les plus brefs délais. À bientot chez Mr.CoffeeVotre</h3>
+				<h3>Nous essaierons d’y répondre au mieux dans les plus brefs délais. À bientot chez Mr.Coffee</h3>
 				<button class="more-button" id="closeButton">FERMER</button>
 			</div>
 		</div>
